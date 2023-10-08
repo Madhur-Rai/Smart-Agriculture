@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crop Yield Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Crop Yield Calculator</h1>
+    </header>
+    <main>
+        <section class="crop-form">
+            <h2>Calculate Crop Yield</h2>
+            <form id="crop-yield-calculator">
+                <label for="crop-weight">Weight of Crop (kg):</label>
+                <input type="number" id="crop-weight" required>
+                <label for="land-area">Land Area (acres):</label>
+                <input type="number" id="land-area" required>
+                <button type="submit">Calculate</button>
+            </form>
+            <p id="yield-result"></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Crop Yield Calculator</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
